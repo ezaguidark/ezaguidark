@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeCademy Project - HTML</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+      <nav>
+          <a href="index.html"><p>Home</p></a>
+          <p class="current">HTML</p>
+          <a href="CSS.html"><p>CSS</p></a>
+      </nav>
+      <header class="otro">
+    <h1>Cheat Sheet. Conceptos basicos HTML y CSS</h1>
+    </header>
+    <main>
+      <h1>El elemento HTML</h1>
+      <img src="https://www.codeinbook.com/images/element-and-tag-graphics.png" alt="HTML ELEMENT"/>
+      <h1> Introducción al HTML </h1>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Elementos basicos</th>
+          </tr>
+          <tr>
+            <td>Tag</td>
+            <td>Nombre</td>
+            <td>Descripcion</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="lado">&lt;Body&gt;</td>
+            <td>Body</td>
+            <td>Es el cuerpo de una pagina, donde se muestra el contenido</td>
+          </tr>
+          <tr>
+            <td class="lado">&lt;h1&gt; a &lt;h6&gt;</td>
+            <td>Headings</td>
+            <td>Son diferentes niveles de texto para titulos</td>
+          </tr>
+          <tr>
+            <td>&lt;div&gt;</td>
+            <td>DIV</td>
+            <td>Es como un divisor de contenido, puede tener diferentes atributos</td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>pharagrap</td>
+            <td>Sirve para mostrar texto</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th colspan="3">Entre otros...</th>
+        </tfoot>
+      </table>
+      <div class="lol">
+        <h2>listas</h2>
+				<ul><p>Lista no ordenada</p>
+					<li>ejemplo 1</li>
+					<li>ejemplo 1</li>
+				</ul>
+				<ol><p>lista ordenada</p>
+					<li>ejemplo 3</li>
+					<li>ejemplo 4</li>
+				</ol>
+         <form>
+				<h1>forma de prueba</h1>
+				<label for="test">Prueba, escribe aqui:</label>
+				<br>
+				<input type="text"name="tex-field"id="test">
+        <br>
+				<label for="field">Cuadro de texto</label>
+				<br>
+				<textarea id="field" name="field" rows="5"cols="30"value="pues, aqui se puede escribir mas"></textarea>
+        <br>
+			<h2> Cbeckboxes</h2>
+				<label for="uno">uno</label>
+				<input type="checkbox"name="num"id="uno"value="1">
+				<label for="dos">dos</label>
+				<input type="checkbox"name="num"id="dos"value="2">
+				<label for="tres">tres</label>
+				<input type="checkbox"name="num"id="tres"value="3">
+				<label for="cua">cuatro</label>
+				<input type="checkbox"name="num"id="cua"value="4">
+		
+				<h2>Radio Button</h2>
+				<label for="man">Man</label>
+				<input type="radio"name="gen"id="man"value="man">
+				<label for="wom">Woman</label>
+				<input type="radio"name="gen"id="wom"value="wom">
+				<label for="tres">Other</label>
+				<input type="radio"name="gen"id="tres"value="Helicoptero">
+        <h2>ejemplo menu</h2>
+			<input list="example">
+			<datalist id="example">
+				<option value="opcion uno a ver"></option>
+				<option value="chocolate"></option>
+				<option value="vanilla"></option>
+				<option value="otra vaina"></option>
+			</datalist>
+			<h2>Submit</h2>
+			<input class="buton" type="submit" value="Ready!">
+		  </form>
+    </div>
+    </main>
+    </body>
+    <footer>
+  <p>Proyecto de CodecCademy: Build Your Own Cheat Sheet.<br> Por: David Ezagui.</p>
+</footer>
+
+</html>
